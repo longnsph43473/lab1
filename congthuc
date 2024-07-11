@@ -1,0 +1,17 @@
+<!-- cài đặt laravel và project name  -->
+
+composer create-project --prefer-dist laravel/laravel="10.*" (tên project)
+
+<!-- Tạo bảng bằng migration -->
+
+php artisan make:migration create_(tên bảng)_table
+
+<!-- Chạy các bảng vừa tạo -->
+
+php artisan migrate
+
+<!-- Nhập dữ liệu cho bảng (sử dụng lệnh seeder) -->
+
+<!-- Tạo file seeder -->
+
+php artisan make:seeder (tên bảng)TableSeeder
